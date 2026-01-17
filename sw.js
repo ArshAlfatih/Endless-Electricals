@@ -3,7 +3,7 @@
   Endless Electricals - Progressive Web App
 */
 
-const CACHE_NAME = 'endless-v1';
+const CACHE_NAME = 'endless-v2';
 const URLS_TO_CACHE = [
     '/',
     '/index.html',
