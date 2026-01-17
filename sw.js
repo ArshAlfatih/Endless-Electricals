@@ -9,6 +9,7 @@ const URLS_TO_CACHE = [
     '/index.html',
     '/style.css',
     '/script.js',
+    '/logo.jpeg?v=2',
     'https://cdn.tailwindcss.com',
     'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'
 ];
