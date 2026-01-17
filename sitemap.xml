@@ -6,7 +6,7 @@
     
     <!-- Homepage -->
     <url>
-        <loc>https://endlesselctricals.com/</loc>
+        <loc>https://endlesselectricals.com/</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -15,7 +15,7 @@
     
     <!-- Categories -->
     <url>
-        <loc>https://endlesselctricals.com/#categories</loc>
+        <loc>https://endlesselectricals.com/#categories</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -24,7 +24,7 @@
     
     <!-- Products Section -->
     <url>
-        <loc>https://endlesselctricals.com/#products</loc>
+        <loc>https://endlesselectricals.com/#products</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
@@ -33,7 +33,7 @@
     
     <!-- Contact Section -->
     <url>
-        <loc>https://endlesselctricals.com/#contact</loc>
+        <loc>https://endlesselectricals.com/#contact</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -42,7 +42,7 @@
     
     <!-- Product Category Pages (for future expansion) -->
     <url>
-        <loc>https://endlesselctricals.com/#wires</loc>
+        <loc>https://endlesselectricals.com/#wires</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -54,7 +54,7 @@
     </url>
     
     <url>
-        <loc>https://endlesselctricals.com/#lights</loc>
+        <loc>https://endlesselectricals.com/#lights</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -66,7 +66,7 @@
     </url>
     
     <url>
-        <loc>https://endlesselctricals.com/#switches</loc>
+        <loc>https://endlesselectricals.com/#switches</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -78,7 +78,7 @@
     </url>
     
     <url>
-        <loc>https://endlesselctricals.com/#cables</loc>
+        <loc>https://endlesselectricals.com/#cables</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -90,7 +90,7 @@
     </url>
     
     <url>
-        <loc>https://endlesselctricals.com/#fans</loc>
+        <loc>https://endlesselectricals.com/#fans</loc>
         <lastmod>2026-01-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -102,3 +102,4 @@
     </url>
     
 </urlset>
+
