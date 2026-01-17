@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | Endless Electricals Anand</title>
+  <meta name="description" content="Browse 50+ electrical products in Anand: Polycab wires, Havells lights, Anchor switches, fans, cables." />
+  <link rel="canonical" href="https://endlesselctricals.com/products" />
+  <link rel="preload" as="image" href="logo.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Optional Firebase for dynamic data (enable via firebase-config.js) -->
+  <script src="firebase-config.js"></script>
+  <script src="firebase-init.js"></script>
+  <!-- Google Sheets Configuration -->
+  <script src="sheet-config.js"></script>
+</head>
+<body class="gradient-bg text-white overflow-x-hidden">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="fixed top-0 w-full z-40 glass px-4 py-3">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img src="logo.svg" alt="Endless Electricals" class="w-10 h-10" />
+        <div>
+          <h1 class="text-xl font-bold" style="color: #FF9500;">Endless Electricals</h1>
+          <p class="text-xs opacity-75">Anand, Gujarat</p>
+        </div>
+      </div>
+      <div class="flex-1 max-w-md mx-8 relative hidden md:flex">
+        <input id="searchInput" type="text" placeholder="Search wires, lights, fans, switches..." class="w-full px-4 py-2.5 rounded-full glass text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300" />
+        <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">🔎</span>
+      </div>
+      <button id="mobileMenuBtn" class="md:hidden p-2 hover:bg-white/10 rounded-lg" aria-label="Toggle mobile menu">☰</button>
+      <nav class="hidden md:flex items-center space-x-6">
+        <a href="index.html" class="hover:text-secondary px-3 py-2 rounded-lg hover:bg-white/10">Home</a>
+        <a href="categories.html" class="hover:text-secondary px-3 py-2 rounded-lg hover:bg-white/10">Categories</a>
+        <a href="products.html" class="text-secondary px-3 py-2 rounded-lg bg-white/10">Products</a>
+        <a href="contact.html" class="hover:text-secondary px-3 py-2 rounded-lg hover:bg-white/10">Contact</a>
+      </nav>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden mt-4 pb-4 space-y-2">
+      <a href="index.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Home</a>
+      <a href="categories.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Categories</a>
+      <a href="products.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Products</a>
+      <a href="contact.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Contact</a>
+    </div>
+  </header>
+
+  <main id="main" class="pt-24 pb-24">
+    <section class="max-w-7xl mx-auto px-4 reveal hero-animated">
+      <div class="text-center mb-8">
+        <h2 class="text-4xl md:text-5xl font-bold mb-3 hero-title">All Products</h2>
+        <p class="opacity-90">Use filters or search to find items quickly.</p>
+      </div>
+      <div class="flex flex-wrap gap-3 items-center bg-white/5 backdrop-blur-sm rounded-2xl p-6 sticky top-24 z-10 filter-section reveal">
+        <div class="flex-1 min-w-0">
+          <input type="text" id="globalSearch" placeholder="🔍 Search 50+ electrical products..." class="w-full px-6 py-3 bg:white/10 backdrop-blur-sm rounded-xl text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300" />
+        </div>
+        <div class="flex items-center space-x-2 flex-wrap gap-2">
+          <button class="px-4 py-2 bg-primary/20 hover:bg-primary/40 text-white rounded-xl transition-all duration-300 text-sm font-medium filter-btn" data-filter="all">All Products</button>
+          <button class="px-4 py-2 bg-accent/20 hover:bg-accent/40 text-white rounded-xl transition-all duration-300 text-sm font-medium filter-btn" data-filter="wires">Wires</button>
+          <button class="px-4 py-2 bg-accent/20 hover:bg-accent/40 text-white rounded-xl transition-all duration-300 text-sm font-medium filter-btn" data-filter="lights">Lights</button>
+          <button class="px-4 py-2 bg-accent/20 hover:bg-accent/40 text-white rounded-xl transition-all duration-300 text-sm font-medium filter-btn" data-filter="switches">Switches</button>
+          <button class="px-4 py-2 bg-accent/20 hover:bg-accent/40 text-white rounded-xl transition-all duration-300 text-sm font-medium filter-btn" data-filter="cables">Cables</button>
+          <button class="px-4 py-2 bg-accent/20 hover:bg-accent/40 text-white rounded-xl transition-all duration-300 text-sm font-medium filter-btn" data-filter="fans">Fans</button>
+        </div>
+      </div>
+      <div class="max-w-7xl mx-auto px-0 mt-8">
+        <div id="productsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black/80 backdrop-blur-sm py-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-sm opacity-75">© 2026 <span style="color: #FF9500;">Endless Electricals</span>. Serving Anand & Gujarat.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919825338373" class="fixed bottom-6 right-6 z-50 w-16 h-16 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition-all duration-300 whatsapp-btn" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

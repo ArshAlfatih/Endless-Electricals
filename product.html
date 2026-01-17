@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Detail | Endless Electricals</title>
+  <meta name="description" content="View product details, price, brand and reviews for Endless Electricals products in Anand, Gujarat." />
+  <link rel="canonical" href="https://endlesselctricals.com/product" />
+  <link rel="preload" as="image" href="logo.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Optional Firebase for dynamic data (enable via firebase-config.js) -->
+  <script src="firebase-config.js"></script>
+  <script src="firebase-init.js"></script>
+  <!-- Google Sheets Configuration -->
+  <script src="sheet-config.js"></script>
+</head>
+<body class="gradient-bg text-white overflow-x-hidden">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="fixed top-0 w-full z-40 glass px-4 py-3">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <img src="logo.svg" alt="Endless Electricals" class="w-10 h-10" />
+        <div>
+          <h1 class="text-xl font-bold" style="color: #FF9500;">Endless Electricals</h1>
+          <p class="text-xs opacity-75">Anand, Gujarat</p>
+        </div>
+      </div>
+      <button id="mobileMenuBtn" class="md:hidden p-2 hover:bg-white/10 rounded-lg" aria-label="Toggle mobile menu">☰</button>
+      <nav class="hidden md:flex items-center space-x-6">
+        <a href="index.html" class="hover:text-secondary px-3 py-2 rounded-lg hover:bg-white/10">Home</a>
+        <a href="categories.html" class="hover:text-secondary px-3 py-2 rounded-lg hover:bg-white/10">Categories</a>
+        <a href="products.html" class="hover:text-secondary px-3 py-2 rounded-lg hover:bg-white/10">Products</a>
+        <a href="contact.html" class="hover:text-secondary px-3 py-2 rounded-lg hover:bg-white/10">Contact</a>
+      </nav>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden mt-4 pb-4 space-y-2">
+      <a href="index.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Home</a>
+      <a href="categories.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Categories</a>
+      <a href="products.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Products</a>
+      <a href="contact.html" class="block px-4 py-2 hover:bg-white/10 rounded-lg">Contact</a>
+    </div>
+  </header>
+
+  <main id="main" class="pt-24 pb-24">
+    <section class="max-w-7xl mx-auto px-4 reveal hero-animated">
+      <div id="productDetail"></div>
+    </section>
+  </main>
+
+  <footer class="bg-black/80 backdrop-blur-sm py-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-sm opacity-75">© 2026 Endless Electricals. Serving Anand & Gujarat.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919825338373" class="fixed bottom-6 right-6 z-50 w-16 h-16 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition-all duration-300 whatsapp-btn" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

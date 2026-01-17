@@ -1,0 +1,279 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Polycab 1.5mm Copper Wire",
+      "brand": "Polycab",
+      "category": "wires",
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 124,
+      "seoKeywords": "Polycab 1.5mm wire price Anand, copper wire Gujarat"
+    },
+    {
+      "id": 2,
+      "name": "Polycab 2.5mm House Wire",
+      "brand": "Polycab",
+      "category": "wires",
+      "price": 7200,
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop",
+      "rating": 4.9,
+      "reviews": 89,
+      "seoKeywords": "Polycab 2.5mm wire Anand, house wiring Anand"
+    },
+    {
+      "id": 3,
+      "name": "Finolex 4mm FR PVC Wire",
+      "brand": "Finolex",
+      "category": "wires",
+      "price": 12500,
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 67,
+      "seoKeywords": "Finolex 4mm wire Anand, PVC wire Gujarat"
+    },
+    {
+      "id": 4,
+      "name": "RR Kabel 1.5mm Twin Wire",
+      "brand": "RR Kabel",
+      "category": "wires",
+      "price": 5800,
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 56,
+      "seoKeywords": "RR Kabel wire price Anand"
+    },
+    {
+      "id": 5,
+      "name": "Polycab 6mm Heavy Duty Wire",
+      "brand": "Polycab",
+      "category": "wires",
+      "price": 18500,
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=400&fit=crop",
+      "rating": 4.9,
+      "reviews": 78,
+      "seoKeywords": "Polycab 6mm heavy duty wire Anand"
+    },
+    {
+      "id": 6,
+      "name": "Havells LED Ceiling Light 12W",
+      "brand": "Havells",
+      "category": "lights",
+      "price": 1890,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 203,
+      "seoKeywords": "Havells LED light Anand, LED ceiling light price"
+    },
+    {
+      "id": 7,
+      "name": "Syska 20W Tube Light",
+      "brand": "Syska",
+      "category": "lights",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 156,
+      "seoKeywords": "Syska tube light Anand, LED tube light price"
+    },
+    {
+      "id": 8,
+      "name": "Havells 18W LED Panel Light",
+      "brand": "Havells",
+      "category": "lights",
+      "price": 2450,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 145,
+      "seoKeywords": "Havells LED panel light, panel light price Anand"
+    },
+    {
+      "id": 9,
+      "name": "Anchor Roma 40W Bulb",
+      "brand": "Anchor",
+      "category": "lights",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop",
+      "rating": 4.4,
+      "reviews": 98,
+      "seoKeywords": "Anchor Roma bulb price, LED bulb Anand"
+    },
+    {
+      "id": 10,
+      "name": "Syska 9W LED Bulb Pack",
+      "brand": "Syska",
+      "category": "lights",
+      "price": 1250,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 187,
+      "seoKeywords": "Syska LED bulb pack, bulb price Anand"
+    },
+    {
+      "id": 11,
+      "name": "Anchor Roma Switch 6A",
+      "brand": "Anchor",
+      "category": "switches",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1600147613280-f24e0f8ceae6?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 89,
+      "seoKeywords": "Anchor Roma switch price Anand, switch 6A"
+    },
+    {
+      "id": 12,
+      "name": "Legrand Myrius Switch 10A",
+      "brand": "Legrand",
+      "category": "switches",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1600147613280-f24e0f8ceae6?w=400&h=400&fit=crop",
+      "rating": 4.9,
+      "reviews": 112,
+      "seoKeywords": "Legrand Myrius switch Anand, modular switch price"
+    },
+    {
+      "id": 13,
+      "name": "Havells Crabtree Switch Plate",
+      "brand": "Havells",
+      "category": "switches",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1600147613280-f24e0f8ceae6?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 67,
+      "seoKeywords": "Havells switch plate, electrical switch Anand"
+    },
+    {
+      "id": 14,
+      "name": "Anchor Roma 2 Way Switch",
+      "brand": "Anchor",
+      "category": "switches",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1600147613280-f24e0f8ceae6?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 78,
+      "seoKeywords": "2 way switch price, Anchor Roma switch Anand"
+    },
+    {
+      "id": 15,
+      "name": "Legrand Modular Dimmer Switch",
+      "brand": "Legrand",
+      "category": "switches",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1600147613280-f24e0f8ceae6?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 95,
+      "seoKeywords": "dimmer switch price, modular switch Legrand"
+    },
+    {
+      "id": 16,
+      "name": "Polycab 4 Core Cable 2.5mm",
+      "brand": "Polycab",
+      "category": "cables",
+      "price": 24500,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76fdd7e4?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 45,
+      "seoKeywords": "Polycab 4 core cable Anand, cable price"
+    },
+    {
+      "id": 17,
+      "name": "RR Kabel 2.5mm Armoured Cable",
+      "brand": "RR Kabel",
+      "category": "cables",
+      "price": 28000,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76fdd7e4?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 52,
+      "seoKeywords": "armoured cable price, RR Kabel Anand"
+    },
+    {
+      "id": 18,
+      "name": "Finolex 6 Core Cable",
+      "brand": "Finolex",
+      "category": "cables",
+      "price": 35000,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76fdd7e4?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 38,
+      "seoKeywords": "Finolex cable, multi core cable Anand"
+    },
+    {
+      "id": 19,
+      "name": "Polycab 3 Core 4mm Cable",
+      "brand": "Polycab",
+      "category": "cables",
+      "price": 18500,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76fdd7e4?w=400&h=400&fit=crop",
+      "rating": 4.9,
+      "reviews": 61,
+      "seoKeywords": "3 core cable price, power cable Anand"
+    },
+    {
+      "id": 20,
+      "name": "RR Kabel 1.5mm Single Core Cable",
+      "brand": "RR Kabel",
+      "category": "cables",
+      "price": 8500,
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76fdd7e4?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 42,
+      "seoKeywords": "single core cable, RR Kabel cable Anand"
+    },
+    {
+      "id": 21,
+      "name": "Havells Pacer 1200mm Ceiling Fan",
+      "brand": "Havells",
+      "category": "fans",
+      "price": 2850,
+      "image": "https://images.unsplash.com/photo-1605046459558-615cce38bd4e?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 178,
+      "seoKeywords": "Havells ceiling fan 1200mm, fan price Anand"
+    },
+    {
+      "id": 22,
+      "name": "Usha Striker Plus 1200mm Fan",
+      "brand": "Usha",
+      "category": "fans",
+      "price": 3200,
+      "image": "https://images.unsplash.com/photo-1605046459558-615cce38bd4e?w=400&h=400&fit=crop",
+      "rating": 4.6,
+      "reviews": 94,
+      "seoKeywords": "Usha ceiling fan, high speed fan Anand"
+    },
+    {
+      "id": 23,
+      "name": "Havells Fusion 1200mm Fan",
+      "brand": "Havells",
+      "category": "fans",
+      "price": 3100,
+      "image": "https://images.unsplash.com/photo-1605046459558-615cce38bd4e?w=400&h=400&fit=crop",
+      "rating": 4.7,
+      "reviews": 145,
+      "seoKeywords": "Havells Fusion fan, fan online Anand"
+    },
+    {
+      "id": 24,
+      "name": "Crompton Energa 1200mm Fan",
+      "brand": "Crompton",
+      "category": "fans",
+      "price": 2950,
+      "image": "https://images.unsplash.com/photo-1605046459558-615cce38bd4e?w=400&h=400&fit=crop",
+      "rating": 4.5,
+      "reviews": 112,
+      "seoKeywords": "Crompton fan price, energy efficient fan Anand"
+    },
+    {
+      "id": 25,
+      "name": "Usha Mist Air 1400mm Fan",
+      "brand": "Usha",
+      "category": "fans",
+      "price": 4200,
+      "image": "https://images.unsplash.com/photo-1605046459558-615cce38bd4e?w=400&h=400&fit=crop",
+      "rating": 4.8,
+      "reviews": 167,
+      "seoKeywords": "Usha 1400mm fan, oscillating fan Anand"
+    }
+  ]
+}
